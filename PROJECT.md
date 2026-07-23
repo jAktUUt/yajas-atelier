@@ -1,12 +1,10 @@
+# Project: Yaja's Atelier
 
-=======
-Project: Yaja's Atelier
-
-Doel
+## Doel
 
 Een professionele webshop bouwen voor handgemaakte producten.
 
-Technologie
+## Technologie
 
 - Python
 - Flask
@@ -19,34 +17,9 @@ Technologie
 - Docker
 - Linux
 
-Versie 1
+## Versie 1
 
-✔ Homepage
-
-✔ Productoverzicht
-
-✔ Productdetail
-
-✔ Contactpagina
-
-Versie 2
-
-✔ Login
-
-✔ Product toevoegen
-
-✔ Product wijzigen
-
-✔ Foto uploaden
-
-Versie 3
-
-✔ Winkelmand
-
-✔ Bestellingen
-
-✔ E-mail
-
-Versie 4 
-
-✔ Online betalingen
+- [ ] Homepage
+- [ ] Productoverzicht
+- [ ] Productdetail
+- [ ] Contactpagina
