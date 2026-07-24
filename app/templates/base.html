@@ -1,11 +1,30 @@
 ﻿<!DOCTYPE html>
+<html lang="nl">
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <!-- metadata links en titel -->
     <meta charset="utf-8" />
-    <title></title>
+    <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href=".\.\static\css\main.css">
+    <title>Yaya's Atelier</title>
 </head>
-<body>
 
+<body>
+    <!-- header-->
+    <!-- logo -->
+    <img src=".\.\static\images\91c5aecf-6d98-4a1f-ad79-20a9f01f754d.png" alt"logo" />
+    <!-- navigatie -->
+    <nav>
+        <ul>
+            <li><a href=".\.\index.html">Home</a></li>
+            <li><a href=".\.\contact.html">Over ons</a></li>
+        </ul>
+    </nav>
+    <!-- hier komt de inhoud van elke pagina, door gebruik van Flask zet ik enkel een block genaamd content-->
+    {% block content %}
+
+    {% endblock %}
+    <!-- footer -->
+    <footer> &copy; 2026 Yaja's Atelier</footer>
 </body>
 </html>
